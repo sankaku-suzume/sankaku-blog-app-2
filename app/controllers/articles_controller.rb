@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   def index
-    @title = 'デイトラ'
+    @articles = Article.all
   end
 
 end
