@@ -11,5 +11,9 @@
     "trix": "^1.2.0",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "@webpack-cli/serve": "2.0.5",
+    "webpack-dev-server": "3.11.2"
+  }
 }
