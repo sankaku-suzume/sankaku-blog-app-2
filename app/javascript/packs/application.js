@@ -19,7 +19,10 @@ require("channels")
 require("trix")
 require("@rails/actiontext")
 
-document.addEventListener('DOMContentLoaded', () => {
-  window.alert('DOM LOADED')
+import $ from 'jquery'
 
+document.addEventListener('DOMContentLoaded', () => {
+  $('.article_title').on('click', () => {
+    window.alert('CLICKED')
+  })
 })
